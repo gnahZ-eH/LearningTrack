@@ -14,7 +14,8 @@
 
 ---
 ## Basic
-* [OData](resources/Basic/OData.md)
+
+* [Index](resources/Basic/index.md)
 --- 
 ## System Design
 ### Examples
