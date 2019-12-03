@@ -1,13 +1,4 @@
-# A
-
----
-# O
+# Web Standard
 * [OData](OData.md),   [OData](OData2.md)
-* [Olingo V4](Olingo.md)
----
-# P
----
-# S
 * [SOAP & REST](SOAP&REST.md)
----
-
+* [Olingo V4](Olingo.md)
