@@ -18,13 +18,13 @@ The following section will guide you through every step in detail.
 According to the OData specification, an OData service has to declare its structure in the so-called Metadata Document. This document defines the contract, such that the user of the service knows which requests can be executed, the structure of the result and how the service can be navigated.
 
 The Metadata Document can be invoked via the following URI:
-```
+```xml
 <serviceroot>/$metadata
 ```
 Furthermore, OData specifies the usage of the so-called Service Document Here, the user can see which Entity Collections are offered by an OData service.
 
 The service document can be invoked via the following URI:
-```
+```xml
 <serviceroot>/
 ```
 The information that is given by these 2 URIs, has to be implemented in the service code. Olingo provides an API for it and we will use it in the implementation of our CsdlEdmProvider.
@@ -55,7 +55,7 @@ In our simple example, we implement the minimum amount of methods, required to r
 Let’s have a closer look at our methods in detail.
 
 First, we need to declare some constants, to be used in the code below:
-```
+```java
 // Service Namespace
 public static final String NAMESPACE = "OData.Demo";
 
@@ -79,7 +79,7 @@ In our example service, for modelling the CsdlEntityType, we have to provide the
 
 The name of the EntityType: “Product” The properties: name and type and additional info, e.g. “ID” of type “edm.int32” Which of the properties is the “key” property: a reference to the “ID” property.
 
-```
+```java
 public CsdlEntityType getEntityType(FullQualifiedName entityTypeName) {
 
   // this method is called for one of the EntityTypes that are configured in the Schema
@@ -117,7 +117,7 @@ http://localhost:8080/DemoService/DemoServlet.svc/Products
 
 When declaring an EntitySet, we need to define the type of entries which are contained in the list, such as an CsdlEntityType. In our example, we set our previously created CsdlEntityType, which is referred by a FullQualifiedName.
 
-```
+```java
 public CsdlEntitySet getEntitySet(FullQualifiedName entityContainer, String entitySetName) {
 
   if(entityContainer.equals(CONTAINER)){
@@ -137,7 +137,7 @@ public CsdlEntitySet getEntitySet(FullQualifiedName entityContainer, String enti
 **getEntityContainer()**
 
 In order to provide data, our OData service needs an EntityContainer that carries the EntitySets. In our example, we have only one EntitySet, so we create one EntityContainer and set our EntitySet.
- ```
+ ```java
  public CsdlEntityContainer getEntityContainer() {
 
   // create EntitySets
@@ -156,7 +156,7 @@ In order to provide data, our OData service needs an EntityContainer that carrie
 **getSchemas()**
 
 Up to this point, we have declared the type of our data (CsdlEntityType) and our list (CsdlEntitySet), and we have put it into a container (CsdlEntityContainer). Now we are required to put all these elements into a CsdlSchema. While the model of an OData service can have several schemas, in most cases there will probably be only one schema. So, in our example, we create a list of schemas, where we add one new CsdlSchema object. The schema is configured with a Namespace, which serves to uniquely identify all elements. Then our elements are added to the Schema
-```
+```java
 public List<CsdlSchema> getSchemas() {
 
   // create Schema
@@ -189,7 +189,7 @@ In our example invokation of the URL: http://localhost:8080/DemoService/DemoServ
 
 Give us the result below:
 
-```
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
   <edmx:DataServices>
@@ -296,7 +296,7 @@ The steps for implementating the method readEntityCollection(...) are:
 4. Configure the response The response object has been passed to us in the method signature. We use it to set the serialized data (the InputStream object). Furthermore, we have to set the HTTP status code, which means that we have the opportunity to do proper error handling. And finally we have to set the content type.
 
 **Sample:**
-```
+```java
 public void readEntityCollection(ODataRequest request, ODataResponse response, UriInfo uriInfo, ContentType responseFormat)
     throws ODataApplicationException, SerializerException {
 
@@ -332,7 +332,7 @@ public void readEntityCollection(ODataRequest request, ODataResponse response, U
 
 We have not elaborated on fetching the actual data. In our tutorial, to keep the code as simple as possible, we use a little helper method that delivers some hardcoded entries. Since we are supposed to deliver the data inside an EntityCollection instance, we create the instance, ask it for the (initially empty) list of entities and add some new entities to it. We create the entities and their properties according to what we declared in our DemoEdmProvider class. So we have to take care to provide the correct names to the new property objects. If a client requests the response in ATOM format, each entity have to provide it`s own entity id. The method createId allows us to create an id in a convenient way.
 
-```
+```java
 private EntityCollection getData(EdmEntitySet edmEntitySet){
 
    EntityCollection productsCollection = new EntityCollection();
@@ -383,7 +383,7 @@ Create a new package myservice.mynamespace.web. Create Java class with name Demo
 
 Override the service() method. Basically, what we are doing here is to create an ODataHttpHandler, which is a class that is provided by Olingo. It receives the user request and if the URL conforms to the OData specification, the request is delegated to the processor implementation of the OData service. This means that the handler has to be configured with all processor implementations that have been created along with the OData service (in our example, only one processor). Furthermore, the ODataHttpHandler needs to carry the knowledge about the CsdlEdmProvider.
 
-```
+```java
 public class DemoServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
@@ -439,7 +439,7 @@ That’s it. Now we can build and run the web application.
 http://localhost:8080/DemoService/DemoService.svc/Products
 
 The expected result is the hardcoded list of product entries, which we have coded in our processor implementation:
-```
+```json
 {
   "@odata.context":"$metadata#Products","
   value":[
