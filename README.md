@@ -1,5 +1,9 @@
 # Catalogue
 
+## Basic
+
+* [Index](resources/Basic/index.md)
+--- 
 ## Programming Language
 ### JavaScript
 * [JavaScript语言精粹(修订版) 中文版](resources/Languages/JavaScript/JavaScript语言精粹.pdf).
@@ -13,10 +17,7 @@
 * [中文手册](https://typescript.bootcss.com/variable-declarations.html)
 
 ---
-## Basic
 
-* [Index](resources/Basic/index.md)
---- 
 ## System Design
 ### Examples
 * [Tweeter Design](resources/System_Design/Examples/TweeterDesign/TweeterDesign.md)
