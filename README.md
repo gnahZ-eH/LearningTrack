@@ -5,6 +5,9 @@
 * [Index](resources/Basic/index.md)
 --- 
 ## Programming Language
+### Java
+* [Java Lambda](resources/Languages/Java/JavaLambda.md)
+
 ### JavaScript
 * [JavaScript语言精粹(修订版) 中文版](resources/Languages/JavaScript/JavaScript语言精粹.pdf).
 * [JavaScript权威指南(第六版)](resources/Languages/JavaScript/JavaScript权威指南(第六版).pdf). 

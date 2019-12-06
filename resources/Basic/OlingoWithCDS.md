@@ -160,3 +160,9 @@ public class DemoServlet extends HttpServlet {
 
 ### Also see
 - Changes of CDS compiler 1.0.27
+
+
+---
+## Summary
+Because in corp, there are plenty of systems which need to communicate with each other (consume API), the CDS model can be reused between multipul systems and that means the APIs are exposed with a standard, 
+reduce the cost of development.
