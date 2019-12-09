@@ -29,3 +29,7 @@
 ## OS
 ### Linux
 * [The Linux Command Line](resources/OS/TheLinuxCommandLine.pdf)
+
+---
+## Data Structure & Algorithms
+* [Segment Tree](resources/DataStructure&Algrothms/SegmentTree.md)
