@@ -33,3 +33,4 @@
 ---
 ## Data Structure & Algorithms
 * [Segment Tree](resources/DataStructure&Algrothms/SegmentTree.md)
+* [Knuth-Shuffle](resources/DataStructure&Algrothms/Knuth-Shuffle/Knuth-Shuffle.md)
