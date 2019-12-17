@@ -1,10 +1,13 @@
 # A
 ---
+# C
+* [Closure](./Closure/Closure.md), [Closure](./Closure/Closure2.md)
+---
 # J
 
 ---
 # O
-* [OData](OData.md),   [OData](OData2.md)
+* [OData](OData.md), [OData](OData2.md)
 * [Olingo V4](Olingo.md)
 ---
 # P
