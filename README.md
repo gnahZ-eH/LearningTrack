@@ -25,6 +25,9 @@
 ### Examples
 * [Tweeter Design](resources/System_Design/Examples/TweeterDesign/TweeterDesign.md)
 
+### Books
+* [设计数据密集型应用](resources/System_Design/Books/设计数据密集型应用.pdf)
+
 ---
 ## OS
 ### Linux
