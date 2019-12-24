@@ -38,3 +38,6 @@
 
        再次OData的请求头和请求body很麻烦, 每次做POST或者PUT操作都要拼接复杂的body, 一旦格式稍有不对请求都会失败.不过Olingo已经考虑到了这个问题, 
 
+
+---
+OData 是一种用来查询和更新数据的 Web 协议，其提供了把存在于应用中的数据暴露出来的方法，数据源包括关系数据库、文件系统、内容管理系统与传统 Web 站点等。OData 运用且构建于很多 Web 技术之上，包括 HTTP、Atom Publishing Protocol（AtomPub）和 JSON 等。
