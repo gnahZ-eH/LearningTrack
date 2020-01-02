@@ -15,6 +15,11 @@
 * [Load-Balancer Arch](./load-balance/loadBalanceArchs.md)
 * [Load-Balancer Ways](./load-balance/loadBalanceWays.md)
 ---
+## N
+* [Nginx-basic](./nginx/nginx-basic.md)
+* [Nginx-loadbalance](./nginx/nginx-loadbalance.md)
+* [Nginx-theory](./nginx/nginx-theory.md)
+---
 ## O
 * [OData](OData.md), [OData](OData2.md)
 * [Olingo V4](Olingo.md)

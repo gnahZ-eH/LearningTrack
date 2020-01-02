@@ -4,8 +4,8 @@
 * [Olingo V4](Olingo.md)
 ---
 ## Web Tech
-* [Load-Balancer Arch](./load-balance/loadBalanceArchs.md)
-* [Load-Balancer Ways](./load-balance/loadBalanceWays.md)
+* [Load-Balancer Arch](./load-balance/loadBalanceArchs.md), [Load-Balancer Ways](./load-balance/loadBalanceWays.md)
+* [Nginx-basic](./nginx/nginx-basic.md), [Nginx-loadbalance](./nginx/nginx-loadbalance.md), [Nginx-theory](./nginx/nginx-theory.md)
 ---
 
 ## Programming Language
