@@ -6,7 +6,7 @@ Edm is the abbreviation for Entity Data Model. Accordingly, we understand that t
 
 1.   The Entity Model of the service can be defined in the EDM Provider. The EDM model basically defines the available EntityTypes and the relation between the entities. An EntityType consists of primitive, complex or navigation properties. The model can be invoked with the Metadata Document request. **This is information is provided by mode.cds in db folder and service.cds in srv folder, after the cds complier' work, the edmx file is generated in /resources/edxm folder**
 
-2. **getEntityType()** Here we declare the EntityType “Product” and a few of its properties
+2. * **getEntityType()** Here we declare the EntityType “Product” and a few of its properties
 
     * **getEntitySet()** Here we state that the list of products can be called via the EntitySet “Products”
     * **getEntityContainer()** Here we provide a Container element that is necessary to host the EntitySet.

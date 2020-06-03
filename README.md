@@ -42,3 +42,9 @@
 ## Framework
 ### Spring
 * [精通Spring4.x](resources/Framework/Spring/精通Spring4.x/)
+
+--- 
+
+## Database
+- ### Redis
+    - [Redis设计与实现](resources/Database/redis/notes.md)
