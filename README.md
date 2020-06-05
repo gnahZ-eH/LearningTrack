@@ -42,6 +42,7 @@
 ## Framework
 ### Spring
 * [精通Spring4.x](resources/Framework/Spring/精通Spring4.x/)
+* [SpringJPA](resources/Framework/Spring/SpringJPA.md)
 
 --- 
 
