@@ -49,4 +49,6 @@
 ## Database
 - ### Redis
     - [Redis设计与实现](resources/Database/redis/notes.md)
+- ### MySql
+    - [Paging](https://zhuanlan.zhihu.com/p/73568092)
 
