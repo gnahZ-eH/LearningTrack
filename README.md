@@ -51,7 +51,7 @@
     - [Redis设计与实现](resources/Database/redis/notes.md)
 - ### MySql
     - [Paging](https://zhuanlan.zhihu.com/p/73568092)
-
+    - [Difference Between Schema / Database in MySQL](https://stackoverflow.com/questions/11618277/difference-between-schema-database-in-mysql)
 
 ---
 ## Web
