@@ -59,3 +59,12 @@
     - [流式分页](https://aotu.io/notes/2017/06/27/infinite-scrolling/)
     - [APP后端分页设计](https://www.scienjus.com/app-server-paging/)
     - [浅谈单页应用中前端分页的实现方案](https://scarletsky.github.io/2016/09/11/talking-about-front-end-pagination-implementation-in-spa/)
+
+--- 
+## Distributed Systems
+
+- ### Zookeeper
+    - [【入门】ZooKeeper 相关概念总结 01](resources/Basic/distributed-systems/zookeeper/zookeeper-intro.md) 
+
+- ### Docker
+    - [Docker](resources/Basic/distributed-systems/docker/docker.md)
