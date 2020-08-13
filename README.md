@@ -66,6 +66,7 @@
 - ### Zookeeper
     - [【入门】ZooKeeper 相关概念总结 01](resources/Basic/distributed-systems/zookeeper/zookeeper-intro.md) 
     - [【进阶】ZooKeeper 相关概念总结 02](resources/Basic/distributed-systems/zookeeper/zookeeper-plus.md)
+    - [【实战】ZooKeeper 实战](resources/Basic/distributed-systems/zookeeper/zookeeper-in-action.md)
 
 - ### Docker
     - [Docker](resources/Basic/distributed-systems/docker/docker.md)
