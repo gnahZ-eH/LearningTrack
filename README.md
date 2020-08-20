@@ -63,6 +63,9 @@
 --- 
 ## Distributed Systems
 
+- ### Basic
+    - [分布式相关概念入门](resources/Basic/distributed-systems/basic/distributed-system.md) 
+
 - ### Zookeeper
     - [【入门】ZooKeeper 相关概念总结 01](resources/Basic/distributed-systems/zookeeper/zookeeper-intro.md) 
     - [【进阶】ZooKeeper 相关概念总结 02](resources/Basic/distributed-systems/zookeeper/zookeeper-plus.md)
