@@ -77,3 +77,6 @@
 - ### RPC
     - [Dubbo 总结：关于 Dubbo 的重要知识点](resources/Basic/distributed-systems/rpc/dubbo.md)
     - [什么是 RPC?RPC原理是什么?](resources/Basic/distributed-systems/rpc/why-use-rpc.md)
+
+- ### MessageQueue
+    - [消息队列总结](resources/Basic/distributed-systems/mq/message-queue.md)
