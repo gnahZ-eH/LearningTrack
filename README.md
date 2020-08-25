@@ -82,3 +82,4 @@
     - [消息队列总结](resources/Basic/distributed-systems/mq/message-queue.md)
     - RabbitMQ
         - [RabbitMQ 入门](resources/Basic/distributed-systems/mq/rabbitmq.md)
+        - [RocketMQ 入门](resources/Basic/distributed-systems/mq/rocketmq.md)
