@@ -83,3 +83,4 @@
     - RabbitMQ
         - [RabbitMQ 入门](resources/Basic/distributed-systems/mq/rabbitmq.md)
         - [RocketMQ 入门](resources/Basic/distributed-systems/mq/rocketmq.md)
+        - [RocketMQ的几个简单问题与答案](resources/Basic/distributed-systems/mq/rocketmq-questions.md)
