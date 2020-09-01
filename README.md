@@ -82,5 +82,8 @@
     - [消息队列总结](resources/Basic/distributed-systems/mq/message-queue.md)
     - RabbitMQ
         - [RabbitMQ 入门](resources/Basic/distributed-systems/mq/rabbitmq.md)
+    - RocketMQ
         - [RocketMQ 入门](resources/Basic/distributed-systems/mq/rocketmq.md)
         - [RocketMQ的几个简单问题与答案](resources/Basic/distributed-systems/mq/rocketmq-questions.md)
+    - KafKa
+        - [KafKa 简介](resources/Basic/distributed-systems/mq/kafka-intro.md)
