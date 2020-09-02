@@ -87,3 +87,4 @@
         - [RocketMQ的几个简单问题与答案](resources/Basic/distributed-systems/mq/rocketmq-questions.md)
     - KafKa
         - [KafKa 简介](resources/Basic/distributed-systems/mq/kafka-intro.md)
+        - [Spring-Boot with Kafka](resources/Basic/distributed-systems/mq/springboot-kafka.md)
