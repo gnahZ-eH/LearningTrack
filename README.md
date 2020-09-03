@@ -88,3 +88,4 @@
     - KafKa
         - [KafKa 简介](resources/Basic/distributed-systems/mq/kafka-intro.md)
         - [Spring-Boot with Kafka](resources/Basic/distributed-systems/mq/springboot-kafka.md)
+        - [Kafka-Inverview](resources/Basic/distributed-systems/mq/kafka-inverview.md)
