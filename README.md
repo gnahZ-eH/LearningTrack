@@ -90,3 +90,7 @@
         - [Spring-Boot with Kafka](resources/Basic/distributed-systems/mq/springboot-kafka.md)
         - [Kafka-Inverview](resources/Basic/distributed-systems/mq/kafka-inverview.md)
         - [Kafka-Plus](resources/Basic/distributed-systems/mq/kafka-plus.md)
+
+- ### API Gate Way
+    - [API Gate Way Intro](resources/Basic/distributed-systems/api-gate-way/api-gateway-intro.md)
+    - [API Gate Way Plus](resources/Basic/distributed-systems/api-gate-way/api-gateway-plus.md)
