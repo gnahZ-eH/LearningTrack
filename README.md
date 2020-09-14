@@ -97,3 +97,6 @@
 
 - ### Distributed Id
     - [Distributed-Id](resources/Basic/distributed-systems/distributed-id/distributed-id.md)
+
+- ### Limit Request
+    - [Limit-Request](resources/Basic/distributed-systems/limit-request/limit-request.md)
