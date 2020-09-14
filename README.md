@@ -94,3 +94,6 @@
 - ### API Gate Way
     - [API Gate Way Intro](resources/Basic/distributed-systems/api-gate-way/api-gateway-intro.md)
     - [API Gate Way Plus](resources/Basic/distributed-systems/api-gate-way/api-gateway-plus.md)
+
+- ### Distributed Id
+    - [Distributed-Id](resources/Basic/distributed-systems/distributed-id/distributed-id.md)
