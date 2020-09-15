@@ -102,3 +102,4 @@
     - [Limit-Request](resources/Basic/distributed-systems/limit-request/limit-request.md)
 - ### Auth
     - [Authentication-Authorization](resources/Basic/distributed-systems/auth/authorization-authentication.md)
+    - [JWT](resources/Basic/distributed-systems/auth/jwt.md) 
