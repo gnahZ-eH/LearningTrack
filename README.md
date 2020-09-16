@@ -103,3 +103,5 @@
 - ### Auth
     - [Authentication-Authorization](resources/Basic/distributed-systems/auth/authorization-authentication.md)
     - [JWT](resources/Basic/distributed-systems/auth/jwt.md) 
+    - [JWT-DEMO](https://github.com/Snailclimb/spring-security-jwt-guide)
+    - [SSO](resources/Basic/distributed-systems/auth/sso.md)
