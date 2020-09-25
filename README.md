@@ -132,3 +132,4 @@
 - ### Netty
     - [Netty-Intro](resources/Basic/distributed-systems/netty/netty-intro.md)
     - [Netty-Action](resources/Basic/distributed-systems/netty/netty-action.md)
+    - [Netty-Core](resources/Basic/distributed-systems/netty/netty-core.md)
