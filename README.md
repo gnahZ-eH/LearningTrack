@@ -26,9 +26,14 @@
 --- 
 ## Programming_Language
 ### Java
-- [Java_Lambda](resources/Languages/Java/JavaLambda.md)
-- [Java_IO](resources/Languages/Java/javaIO.md)
-- [Java_NIO](resources/Languages/Java/javaNIO.md)
+- #### Basic
+  - [Java_Lambda](resources/Languages/Java/JavaLambda.md)
+  - [Java_IO](resources/Languages/Java/javaIO.md)
+  - [Java_NIO](resources/Languages/Java/javaNIO.md)
+- #### Concurrent
+  - [AQS](resources/Languages/Java/aqs.md)
+  - [Block-Queue](resources/Languages/Java/java-block-queue.md)
+
 
 ### JavaScript
 * [JavaScript语言精粹(修订版) 中文版](resources/Languages/JavaScript/JavaScript语言精粹.pdf).
@@ -133,3 +138,4 @@
     - [Netty-Intro](resources/Basic/distributed-systems/netty/netty-intro.md)
     - [Netty-Action](resources/Basic/distributed-systems/netty/netty-action.md)
     - [Netty-Core](resources/Basic/distributed-systems/netty/netty-core.md)
+    - [Netty-Doc](resources/Basic/distributed-systems/netty/netty-doc.md)
