@@ -1,0 +1,4 @@
+- ### [一篇文章解决所有system design面试](https://blog.csdn.net/AuburnTigers/article/details/102601151)
+- ### [万字长文马克第二次找工作 + 准备的资料](https://www.sohu.com/a/275829032_440524)
+- ### [Grokking the System Design (, educative.io)](https://www.doc88.com/p-84987071506441.html)
+- ### [北美FAANG求职——准备资料大全](https://zhuanlan.zhihu.com/p/111102388)
