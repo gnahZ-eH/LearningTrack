@@ -33,6 +33,7 @@
 - #### Concurrent
   - [AQS](resources/Languages/Java/aqs.md)
   - [Block-Queue](resources/Languages/Java/java-block-queue.md)
+  - [HashMap-UnSafe](resources/Languages/Java/hash-map-unsafe.md)
 
 
 ### JavaScript
