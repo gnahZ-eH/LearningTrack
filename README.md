@@ -14,6 +14,7 @@
   - [OS](#os)
     - [Linux](#linux)
   - [Data Structure & Algorithms](#data-structure--algorithms)
+  - [* Graph](#-graph)
   - [Framework](#framework)
     - [Spring](#spring)
   - [Database](#database)
@@ -65,7 +66,10 @@
 ## Data Structure & Algorithms
 * [Segment Tree](resources/DataStructure&Algrothms/SegmentTree/SegmentTree.md)
 * [Knuth-Shuffle](resources/DataStructure&Algrothms/Knuth-Shuffle/Knuth-Shuffle.md)
-
+* [DP](resources/DataStructure&Algrothms/DP.md)
+* [Union-Find](resources/DataStructure&Algrothms/union-find.md)
+* [A-Star](resources/DataStructure&Algrothms/a-star.md)
+* [Graph](resources/DataStructure&Algrothms/graph-algorithms.md)
 ---
 ## Framework
 ### Spring
