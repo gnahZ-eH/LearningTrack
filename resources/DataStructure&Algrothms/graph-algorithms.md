@@ -12,3 +12,4 @@
 
 ## Topological Sort
 1. [拓扑排序(Topological Sorting)](https://blog.csdn.net/lisonglisonglisong/article/details/45543451)
+2. [深入理解拓扑排序（Topological sort)](https://www.jianshu.com/p/3347f54a3187)
