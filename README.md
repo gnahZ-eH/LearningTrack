@@ -80,6 +80,9 @@
 --- 
 
 ## Database
+- ### Basic
+    - [数据库行存储及列存储详解](https://www.cnblogs.com/rockg/p/11286180.html)
+    - [什么是列存储，一文秒懂](https://zhuanlan.zhihu.com/p/127823207)
 - ### Redis
     - [Redis设计与实现](resources/Database/redis/notes.md)
 - ### MySql
