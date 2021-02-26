@@ -89,6 +89,7 @@
 - ### MySql
     - [Paging](https://zhuanlan.zhihu.com/p/73568092)
     - [Difference Between Schema / Database in MySQL](https://stackoverflow.com/questions/11618277/difference-between-schema-database-in-mysql)
+    - [MySQL数据库表分区功能详解](https://www.cnblogs.com/zhouguowei/p/9360136.html)
 
 ---
 ## Web
