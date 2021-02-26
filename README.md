@@ -83,6 +83,7 @@
 - ### Basic
     - [数据库行存储及列存储详解](https://www.cnblogs.com/rockg/p/11286180.html)
     - [什么是列存储，一文秒懂](https://zhuanlan.zhihu.com/p/127823207)
+    - [数据库分区、分表、分库、分片](https://blog.csdn.net/qq_28289405/article/details/80576614)
 - ### Redis
     - [Redis设计与实现](resources/Database/redis/notes.md)
 - ### MySql
