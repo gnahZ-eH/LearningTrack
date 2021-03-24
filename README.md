@@ -104,6 +104,8 @@
 - ### Basic
     - [分布式相关概念入门](resources/Basic/distributed-systems/basic/distributed-system.md) 
     - [求职link](resources/System_Design/doc/link.md)
+    - [一致性hash](https://www.cnblogs.com/lpfuture/p/5796398.html)
+    - [一致性Hash原理与实现](https://www.jianshu.com/p/528ce5cd7e8f)
 
 - ### Zookeeper
     - [【入门】ZooKeeper 相关概念总结 01](resources/Basic/distributed-systems/zookeeper/zookeeper-intro.md) 

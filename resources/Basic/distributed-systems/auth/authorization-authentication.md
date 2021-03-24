@@ -216,3 +216,4 @@ OAuth 是一个行业的标准授权协议，主要用来授权第三方应用�
 - https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4
 - https://www.varonis.com/blog/what-is-oauth/
 - https://tools.ietf.org/html/rfc6749
+- https://www.jianshu.com/p/8867ea3cd9f7?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=weixin
