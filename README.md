@@ -91,6 +91,7 @@
     - [Difference Between Schema / Database in MySQL](https://stackoverflow.com/questions/11618277/difference-between-schema-database-in-mysql)
     - [MySQL数据库表分区功能详解](https://www.cnblogs.com/zhouguowei/p/9360136.html)
     - [mysql的默认隔离级别](https://www.cnblogs.com/shoshana-kong/p/10516404.html)
+    - [CHAR与VARCHAR详解](https://zhuanlan.zhihu.com/p/91994971)
 
 ---
 ## Web
