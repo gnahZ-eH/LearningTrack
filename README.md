@@ -92,6 +92,7 @@
     - [MySQL数据库表分区功能详解](https://www.cnblogs.com/zhouguowei/p/9360136.html)
     - [mysql的默认隔离级别](https://www.cnblogs.com/shoshana-kong/p/10516404.html)
     - [CHAR与VARCHAR详解](https://zhuanlan.zhihu.com/p/91994971)
+    - [InnoDB-索引页（数据页）](https://www.jianshu.com/p/e13e70b90a45)
 
 ---
 ## Web
