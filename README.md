@@ -93,6 +93,11 @@
     - [mysql的默认隔离级别](https://www.cnblogs.com/shoshana-kong/p/10516404.html)
     - [CHAR与VARCHAR详解](https://zhuanlan.zhihu.com/p/91994971)
     - [InnoDB-索引页（数据页）](https://www.jianshu.com/p/e13e70b90a45)
+    - [MySQL—InnoDB数据页结构](https://blog.csdn.net/xioayu96/article/details/107857426)
+    - [mysql技术内幕-innodb存储引擎总结](https://segmentfault.com/a/1190000018129086)
+    - [MySQL如何解决幻读？](https://www.cnblogs.com/JMrLi/p/12705188.html)
+    - [mysql中mvcc解决不可重复读](https://blog.csdn.net/nhlbengbeng/article/details/84951613)
+    - [透彻解读mysql的可重复读、幻读及实现原理](https://blog.csdn.net/sanyuesan0000/article/details/90235335)
 
 ---
 ## Web
