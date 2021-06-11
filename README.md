@@ -35,6 +35,8 @@
   - [AQS](resources/Languages/Java/aqs.md)
   - [Block-Queue](resources/Languages/Java/java-block-queue.md)
   - [HashMap-UnSafe](resources/Languages/Java/hash-map-unsafe.md)
+- #### JVM
+  - [JVM参数调优总结 -Xms -Xmx -Xmn -Xss](https://blog.csdn.net/jakeswang/article/details/105380403) 
 
 
 ### JavaScript
