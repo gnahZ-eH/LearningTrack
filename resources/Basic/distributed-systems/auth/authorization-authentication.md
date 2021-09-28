@@ -202,6 +202,7 @@ OAuth 2.0 比较常用的场景就是第三方登录，当你的网站接入了�
 - [10 分钟理解什么是 OAuth 2.0 协议](https://deepzz.com/post/what-is-oauth2-protocol.html)
 - [OAuth 2.0 的四种方式](http://www.ruanyifeng.com/blog/2019/04/oauth-grant-types.html)
 - [GitHub OAuth 第三方登录示例教程](http://www.ruanyifeng.com/blog/2019/04/github-oauth.html)
+- [身份认证系统（三）什么是OAuth2](https://www.cnblogs.com/meibaorui/p/9182660.html)
 
 ## 8 什么是 SSO?
 
