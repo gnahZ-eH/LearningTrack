@@ -39,6 +39,7 @@
     - [Auth](#auth)
     - [Netty](#netty)
     - [HBase](#hbase)
+  - [Network](#network)
   - [Career](#career)
 
 ---
@@ -272,6 +273,10 @@
 
 ### HBase
 - [HBase基础概念](https://zhuanlan.zhihu.com/p/145551967?utm_source=wechat_session)
+
+---
+## Network
+- [子网（Subnet）划分](https://baijiahao.baidu.com/s?id=1689204361386289089&wfr=spider&for=pc)
 
 ---
 ## Career
